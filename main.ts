@@ -27,3 +27,5 @@ if (answer.operator === "addition") {
 }
 
 console.log((answer));
+console.log("Thank You For Using HM7-CALCULATOR");
+
