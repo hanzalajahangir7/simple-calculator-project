@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("Welcome to Hanzala Jahangir cli based calculator");
 const answer = await inquirer.prompt([
     { message: "enter your number", type: "number", name: "firstnumber" },
     { message: "enter your 2nd number", type: "number", name: "secondnumber" },
@@ -26,3 +27,4 @@ else {
     console.log("please enter a valid operator");
 }
 console.log((answer));
+console.log("Thank You For Using HM7-CALCULATOR");

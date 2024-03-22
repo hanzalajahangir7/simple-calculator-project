@@ -3,6 +3,7 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 
+console.log("Welcome to Hanzala Jahangir cli based calculator")
 const answer = await inquirer.prompt([
   { message: "enter your number", type: "number", name: "firstnumber" },
   { message: "enter your 2nd number", type: "number", name: "secondnumber" },
