@@ -11,7 +11,7 @@ const answer = await inquirer.prompt([
     message: "select your operator",
     type: "list",
     name: "operator",
-    choices: ["addition", "subtraction", "multiplication", "division"],
+    choices: ["addition", "subtraction", "multiplication", "division", "modulus"],
   },
 ]);
 
@@ -23,6 +23,8 @@ if (answer.operator === "addition") {
   console.log(answer.firstnumber * answer.secondnumber);
 } else if (answer.operator === "division") {
   console.log(answer.firstnumber / answer.secondnumber);
+} else if (answer.operator === "modulus") {
+  console.log(answer.firstnumber % answer.secondnumber)
 } else {
   console.log("please enter a valid operator");
 }

@@ -1,6 +1,6 @@
 {
   "name": "hm7-calculator",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "description": "this is a cli based calculator made by Hanzala Jahangir",
   "main": "index.js",
   "type": "module",
